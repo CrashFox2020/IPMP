@@ -10,7 +10,7 @@ int main(){
         for(int j=i+1;j<n;j++){
             int b2=pow(j,2);
             int c2=a2+b2;
-            if(sqrt(c2)==(int (sqrt(c2)))){
+            if(sqrt(c2)==(int (sqrt(c2)))&&c2<=n){
                 count++;
                 cout<<int (sqrt(a2))<<" "<<int (sqrt(b2))<<" "<<int (sqrt(c2))<<endl;
             }
